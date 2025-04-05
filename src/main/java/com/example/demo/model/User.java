@@ -20,5 +20,5 @@ public class User {
     @Column(nullable = false)
     private String password;
     @Column(nullable = false)
-    private String role;    // Admin, customer, hotel_manager
+    private String role;    // ADMIN, CUSTOMER, HOTEL_MANAGER
 }
